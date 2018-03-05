@@ -13,3 +13,8 @@
 - All values are stored as objects, and an object is an area of memory that stores data and behaviors
 - Objects in C# are instances of things called `classes` and `structures`
 - A `method` is just like a function in a non-object-oriented language. It's a member of a classes and structures.
+
+#### Declaring Variables
+- Each variable has a data type, and that data type dictates what you can put in that variable
+- C# is a strongly-typed language, meaning a few things, including how once a variable's data type is declared, it can't be changed
+- In C#, everything is an instance of a class or structure, and therefore every variable is an instance of some class or structure that has properties and methods
