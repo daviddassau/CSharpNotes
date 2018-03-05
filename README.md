@@ -19,3 +19,7 @@
 - C# is a strongly-typed language, meaning a few things, including how once a variable's data type is declared, it can't be changed
 - In C#, everything is an instance of a class or structure, and therefore every variable is an instance of some class or structure that has properties and methods
 - You can use `StringBuilder()` to append strings together. For instance, you can instantiate one like `StringBuilder builder = new StringBuilder();`
+```C#
+StringBuilder builder = new StringBuilder();
+builder.Append("Hello");
+```
