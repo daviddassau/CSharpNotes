@@ -23,3 +23,4 @@
 StringBuilder builder = new StringBuilder();
 builder.Append("Hello");
 ```
+- You can convert a string to an int using the `.Parse` method
