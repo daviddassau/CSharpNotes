@@ -56,6 +56,11 @@ sb.ToString();
 - You can use the `.TryParse()` method, which takes in two parameters, to test and see if you can indeed parse the string you give it.
   - For instance, you can do `int.TryParse("12345", out result)`, which will return true, because you can in fact parse out that number. However, if you were to throw a comma in the middle of the string you pass in, it will give you false.
   
+#### Constants and Enumerators
+- You can use enumerators if you want to use numbers to represent values in your program
+```C#
+enum weekDays { Monday, Tuesday, Wednesday, Thursday, Friday }
+```
 
 
 
