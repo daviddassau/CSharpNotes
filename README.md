@@ -83,3 +83,4 @@ string SchoolName;
 ```C#
 string SchoolName { get; set; }
 ```
+- An Access Modifier is designed to limit the visibility of properties, methods, fields, and anything else so you can't accidentally or unintentionally change something.
