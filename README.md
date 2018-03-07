@@ -39,6 +39,19 @@ builder.Append("Hello");
 #### Working with Strings
 - You can convert a string to all uppercase or lowercase, which comes in handy with working with passwords. For example, you can declare `var password = "Password";`, and then do `password.ToUpper();` and it will convert the string Password to PASSWORD. You can obviously do the opposite with `ToLower()`.
 - Another important part of strings is the `Substring()`. You can declare a variable like `var dickens = "It was the best of times, it was the worst of times.";` and then do `dickens.Substring(4, 8)`. This will return `as the b`. So basically you're saying that you want everything in between the 4th character and 8th character.
+- You can also use the `.Length()` method to get back the total amount of characters in that string.
+
+#### String building
+- String building comes in handy because instead of using concatenation, you can declare something like 
+```C#
+var sb = new StringBuilder();
+sb.Append("David");
+sb.Append("Dassau");
+sb.ToString();
+```
+- This will take the two strings I "appended" and print them out.
+- In addition, you can use `.AppendLine()` if you want the two things that you appended to show up on different lines, instead of next to each other.
+
 
 
 
