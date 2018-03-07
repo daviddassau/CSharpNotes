@@ -66,3 +66,10 @@ var someday = weekDays.Monday;
 ```C#
 enum weekDays { Monday = 1, Tuesday, Wednesday, Thursday, Friday }
 ```
+
+#### Dates and Times
+- `DateTime.Now` will give you the time right now.
+- You can assign any specific date, like your birthday, to a variable:
+```C#
+var birthday = new DateTime(1986, 01, 02);
+```
