@@ -60,7 +60,9 @@ sb.ToString();
 - You can use enumerators if you want to use numbers to represent values in your program
 ```C#
 enum weekDays { Monday, Tuesday, Wednesday, Thursday, Friday }
+var someday = weekDays.Monday;
 ```
-
-
-
+- For the enum `weekDay` Monday will be represented by 0. However, you can actually assign it a specific number, like this:
+```C#
+enum weekDays { Monday = 1, Tuesday, Wednesday, Thursday, Friday }
+```
