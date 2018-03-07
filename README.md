@@ -16,6 +16,7 @@
 
 #### Declaring Variables
 - Each variable has a data type, and that data type dictates what you can put in that variable
+- There are different types of variables, including: `string`, `int`, `double`, and `bool`.
 - C# is a strongly-typed language, meaning a few things, including how once a variable's data type is declared, it can't be changed
 - Variables are typed in camel-case in C#.
 - In C#, everything is an instance of a class or structure, and therefore every variable is an instance of some class or structure that has properties and methods
