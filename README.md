@@ -38,5 +38,7 @@ builder.Append("Hello");
 
 #### Working with Strings
 - You can convert a string to all uppercase or lowercase, which comes in handy with working with passwords. For example, you can declare `var password = "Password";`, and then do `password.ToUpper();` and it will convert the string Password to PASSWORD. You can obviously do the opposite with `ToLower()`.
+- Another important part of strings is the `Substring()`. You can declare a variable like `var dickens = "It was the best of times, it was the worst of times.";` and then do `dickens.Substring(4, 8)`. This will return `as the b`. So basically you're saying that you want everything in between the 4th character and 8th character.
+
 
 
