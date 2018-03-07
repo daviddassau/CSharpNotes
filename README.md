@@ -29,7 +29,8 @@
 StringBuilder builder = new StringBuilder();
 builder.Append("Hello");
 ```
-- You can convert a string to an int using the `.Parse` method
+- You can convert a string to an int using the `.Parse` method.
+  - EX: `int.Parse("15")` will convert the string "15" to the number 15.
 - With variables, there's such a thing called "implicit" and "explicit" typing. 
   - Implicit typing means you can use the `var` keyword, and the C# compiler will figure out what type you mean based on the assignment.
     - EX: `var name = "David";`
