@@ -41,7 +41,7 @@ builder.Append("Hello");
 - Another important part of strings is the `Substring()`. You can declare a variable like `var dickens = "It was the best of times, it was the worst of times.";` and then do `dickens.Substring(4, 8)`. This will return `as the b`. So basically you're saying that you want everything in between the 4th character and 8th character.
 - You can also use the `.Length()` method to get back the total amount of characters in that string.
 
-#### String building
+#### String Building
 - String building comes in handy because instead of using concatenation, you can declare something like 
 ```C#
 var sb = new StringBuilder();
@@ -52,6 +52,10 @@ sb.ToString();
 - This will take the two strings I "appended" and print them out.
 - In addition, you can use `.AppendLine()` if you want the two things that you appended to show up on different lines, instead of next to each other.
 
+#### Parsing Strings as Numbers
+- You can use the `.TryParse()` method, which takes in two parameters, to test and see if you can indeed parse the string you give it.
+  - For instance, you can do `int.TryParse("12345", out result)`, which will return true, because you can in fact parse out that number. However, if you were to throw a comma in the middle of the string you pass in, it will give you false.
+  
 
 
 
