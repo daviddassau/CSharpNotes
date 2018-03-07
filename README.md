@@ -36,4 +36,7 @@ builder.Append("Hello");
     - EX: `var name = "David";`
   - Explicit means
 
+#### Working with Strings
+- You can convert a string to all uppercase or lowercase, which comes in handy with working with passwords. For example, you can declare `var password = "Password";`, and then do `password.ToUpper();` and it will convert the string Password to PASSWORD. You can obviously do the opposite with `ToLower()`.
+
 
