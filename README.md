@@ -79,7 +79,7 @@ var birthday = new DateTime(1986, 01, 02);
 ```C#
 string SchoolName;
 ```
-- If you want, you can go ahead and "initialize" it by adding a getter and setter
+- If you want, you can go ahead and "initialize" it by adding a getter and setter. When you do this, you're saying that your field has an auto-property, meaning that it's set but it has no particular value.
 ```C#
 string SchoolName { get; set; }
 ```
