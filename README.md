@@ -17,6 +17,7 @@
 #### Declaring Variables
 - Each variable has a data type, and that data type dictates what you can put in that variable
 - C# is a strongly-typed language, meaning a few things, including how once a variable's data type is declared, it can't be changed
+- Variables are typed in camel-case in C#.
 - In C#, everything is an instance of a class or structure, and therefore every variable is an instance of some class or structure that has properties and methods
 - You can use `StringBuilder()` to append strings together. For instance, you can instantiate one like
 ```C#
@@ -24,3 +25,4 @@ StringBuilder builder = new StringBuilder();
 builder.Append("Hello");
 ```
 - You can convert a string to an int using the `.Parse` method
+
