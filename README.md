@@ -73,3 +73,13 @@ enum weekDays { Monday = 1, Tuesday, Wednesday, Thursday, Friday }
 ```C#
 var birthday = new DateTime(1986, 01, 02);
 ```
+
+#### Working with Classes
+- Inside a class, you can create a `field`, which is an instance variable
+```C#
+string SchoolName;
+```
+- If you want, you can go ahead and "initialize" it by adding a getter and setter
+```C#
+string SchoolName { get; set; }
+```
