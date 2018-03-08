@@ -111,3 +111,8 @@ public float AverageThreeScores(float a, float b, float c)
 }
 ```
 - This method is going to take in three float variables. Then, inside the method, we create a variable called `result` and assign the math operation to it. Nothing will happen and the name of the method will remain red-lined until you `return` something. In this case, we just return the variable `result`. In addition, if you don't necessarily need to return something, you can use the return type `void` instead of float/int/string/etc.
+- **Function Bodied Expressions** is a new feature to C#, and it's just a different, shorter way of writing things such as methods. For instance, you can re-write the method from above like this:
+```C#
+public float AverageThreeScores(float a, float b, float c) => (a + b + c) / 3;
+```
+  - You should really only use function bodied expressions to return simple things. You wouldn't want to use them for executing loops or anything too complicated.
