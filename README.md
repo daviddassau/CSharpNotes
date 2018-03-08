@@ -84,8 +84,21 @@ string SchoolName;
 string SchoolName { get; set; }
 ```
 - An Access Modifier is designed to limit the visibility of properties, methods, fields, and anything else so you can't accidentally or unintentionally change something. There are 4 types of access modifiers:
-  - Public
-  - Private
+  - Public: this means that the variable can be seen outside of the class it belongs to
+  - Private: this means that the variable can only be seen inside of its class
   - Protected
   - Internal
+- A Constructor is something that will run immediately when an object is instantiated. A contructor can look something like this:
+```C#
+public School()
+{
+  Name = "Untitled School";
+  PhoneNumber = "555-1234";
+}
 
+public School(string SchoolName, string SchoolPhoneNumber)
+{
+  Name = SchoolName;
+  PhoneNumber = SchoolPhoneNumber
+}
+```
