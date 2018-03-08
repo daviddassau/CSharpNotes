@@ -83,4 +83,9 @@ string SchoolName;
 ```C#
 string SchoolName { get; set; }
 ```
-- An Access Modifier is designed to limit the visibility of properties, methods, fields, and anything else so you can't accidentally or unintentionally change something.
+- An Access Modifier is designed to limit the visibility of properties, methods, fields, and anything else so you can't accidentally or unintentionally change something. There are 4 types of access modifiers:
+  - Public
+  - Private
+  - Protected
+  - Internal
+
