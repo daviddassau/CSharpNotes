@@ -102,3 +102,12 @@ public School(string SchoolName, string SchoolPhoneNumber)
   PhoneNumber = SchoolPhoneNumber
 }
 ```
+- **Methods**, sometimes called functions in other languages, are used to manipulate data from your properties, fields, variables, etc.
+```C#
+public float AverageThreeScores(float a, float b, float c)
+{
+  var result = (a + b + c) / 3;
+  return result;
+}
+```
+- This method is going to take in three float variables. Then, inside the method, we create a variable called `result` and assign the math operation to it. Nothing will happen and the name of the method will remain red-lined until you `return` something. In this case, we just return the variable `result`.
