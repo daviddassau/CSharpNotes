@@ -110,4 +110,4 @@ public float AverageThreeScores(float a, float b, float c)
   return result;
 }
 ```
-- This method is going to take in three float variables. Then, inside the method, we create a variable called `result` and assign the math operation to it. Nothing will happen and the name of the method will remain red-lined until you `return` something. In this case, we just return the variable `result`.
+- This method is going to take in three float variables. Then, inside the method, we create a variable called `result` and assign the math operation to it. Nothing will happen and the name of the method will remain red-lined until you `return` something. In this case, we just return the variable `result`. In addition, if you don't necessarily need to return something, you can use the return type `void` instead of float/int/string/etc.
