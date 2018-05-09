@@ -17,3 +17,4 @@ public class AppDbContext : DbContext
         public virtual DbSet<Civic> Civics { get; set; }
     }
 ```
+5. In the package manager console, first do a `enable-migrations`. This will create the Migrations folder with the `Configuration.cs` file in it. Next you want to do a `add-migration buildDatabase`, then a `update-database`. You should now have a DB in SQL for your project. 
